@@ -3,7 +3,6 @@
   height: 726px;
   position: absolute;
   top: 100px;
-  background-color: chartreuse;
   display: grid;
   grid-template-rows: 42px 684px;
   grid-template-columns: 4fr 1fr 2fr 1fr 2fr;
@@ -19,16 +18,16 @@
   font-family: "Segoe UI";
   font-size: 14px;
   line-height: 19px;
-  color: #7F8FA4;
-  background: #EAEEF0;
+  color: #7f8fa4;
+  background: #eaeef0;
 }
 
-.list-header>div {
+.list-header > div {
   margin-top: 12px;
   margin-bottom: 11px;
 }
 
-.list-header>div:first-child {
+.list-header > div:first-child {
   margin-left: 26px;
 }
 
@@ -42,11 +41,11 @@
   grid-auto-rows: 76px;
   height: 76px;
   padding: 30px 0 29px 0;
-  background: #FFFFFF;
-  border-bottom: 1px solid #CCCFD4;
+  background: #ffffff;
+  border-bottom: 1px solid #cccfd4;
 }
 
-.list-item>span:first-child {
+.list-item > span:first-child {
   padding-left: 26px;
   font-family: "Segoe UI";
   font-size: 14px;
@@ -54,48 +53,48 @@
   color: #414042;
 }
 
-.list-item>span:first-child>span {
+.list-item > span:first-child > span {
   width: 36px;
   height: 36px;
   font-family: "Segoe UI";
   font-size: 12px;
   line-height: 16px;
-  color: #FFFFFF;
-  background: #7F8FA4;
+  color: #ffffff;
+  background: #7f8fa4;
   border-radius: 50%;
   padding: 10px 9px 10px 8px;
   margin-right: 26px;
 }
 
-.list-item>span:nth-child(2) {
+.list-item > span:nth-child(2) {
   font-family: "Segoe UI";
   font-size: 14px;
   line-height: 16px;
-  color: #7F8FA4;
+  color: #7f8fa4;
 }
 
-.list-item>span:nth-child(3) {
+.list-item > span:nth-child(3) {
   font-family: "Segoe UI";
   font-size: 14px;
   line-height: 16px;
-  color: #7F8FA4;
+  color: #7f8fa4;
 }
 
-.list-item>span:nth-child(4) {
+.list-item > span:nth-child(4) {
   font-family: "Segoe UI";
   font-size: 14px;
   line-height: 16px;
-  color: #7F8FA4;
+  color: #7f8fa4;
 }
 
-.list-item>span:last-child {
+.list-item > span:last-child {
   display: flex;
   justify-content: space-between;
   margin-right: 33px;
 }
 
-.list-item>span:last-child>span:first-child {
-  border: 1px solid #CCCFD4;
+.list-item > span:last-child > span:first-child {
+  border: 1px solid #cccfd4;
   box-sizing: border-box;
   border-radius: 30px;
   width: 120px;
@@ -105,14 +104,14 @@
   justify-content: center;
 }
 
-.list-item>span:last-child>span:first-child>span:first-child {
+.list-item > span:last-child > span:first-child > span:first-child {
   width: 9px;
   height: 9px;
   margin-left: 12px;
   border-radius: 50%;
 }
 
-.list-item>span:last-child>span:first-child>span:last-child {
+.list-item > span:last-child > span:first-child > span:last-child {
   position: relative;
   font-family: "Segoe UI";
   font-size: 12px;
@@ -120,7 +119,7 @@
   margin: 0 11px 1px 8px;
 }
 
-.list-item>span:last-child>span:last-child {
+.list-item > span:last-child > span:last-child {
   width: 27px;
   height: 26px;
   text-align: start;
@@ -128,5 +127,5 @@
 
 .dropdown-arrow {
   transform: rotate(-90deg);
-  color: #CCCFD4;
+  color: #cccfd4;
 }

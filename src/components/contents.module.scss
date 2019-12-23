@@ -185,7 +185,8 @@
   background-color: #ffffff;
   min-width: 150px;
   position: relative;
-  height: 35px;
+  z-index: 20;
+  min-height: 35px;
   border-radius: 2px;
 }
 
@@ -199,12 +200,13 @@
   border-radius: 2px;
   background: #f4f4f4;
   border: 1px solid #ced0da;
-  height: 100%;
+  min-height: 100%;
   width: 100%;
 }
 
 .listing-container > div:nth-child(2) > div > div > span {
   flex: 1;
+  min-height: 100%;
 }
 
 .listing-container > div:nth-child(2) > div > div > span:last-child {
