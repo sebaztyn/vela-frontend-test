@@ -16,7 +16,7 @@
   right: 86.46%;
   top: 25%;
   bottom: 26.67%;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 24px;
@@ -111,11 +111,11 @@
   height: 19px;
 }
 
-.username-container>p {
+.username-container > p {
   margin: 0;
 }
 
-.username-container>p:first-child {
+.username-container > p:first-child {
   font-size: 10px;
   line-height: 13px;
 }
@@ -137,7 +137,7 @@
   text-align: center;
 }
 
-.notification-number>span {
+.notification-number > span {
   width: 6px;
   height: 14px;
   font-family: Segoe UI;

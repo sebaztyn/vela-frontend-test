@@ -17,7 +17,7 @@
   margin-bottom: 32px;
   background: #27AE60;
   border-radius: 30px;
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 12px;
@@ -52,6 +52,7 @@
 .nav-list>li:hover {
   background: rgba(24, 117, 240, 0.1);
   border-left: solid 4px #1875F0;
+  cursor: pointer;
 }
 
 .nav-list>div {

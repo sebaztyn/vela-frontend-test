@@ -3,7 +3,7 @@
   grid-column: 2/3;
   position: relative;
   width: 1179px;
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
 }
 
 .excerpt-container {
@@ -14,8 +14,8 @@
 }
 
 .excerpt-item {
-  background: #FFFFFF;
-  border: 1px solid #EEF8FD;
+  background: #ffffff;
+  border: 1px solid #eef8fd;
   box-sizing: border-box;
   border-radius: 2px;
   width: 253px;
@@ -23,7 +23,7 @@
   position: relative;
 }
 
-.excerpt-item>.graph-one {
+.excerpt-item > .graph-one {
   position: absolute;
   left: 67.19%;
   right: 8.3%;
@@ -32,7 +32,7 @@
   background-color: #ffffff;
 }
 
-.excerpt-item>.graph-two {
+.excerpt-item > .graph-two {
   width: 62px;
   height: 37px;
   position: absolute;
@@ -42,21 +42,21 @@
   bottom: 25.33%;
 }
 
-.excerpt-item>ul {
+.excerpt-item > ul {
   list-style: none;
-  font-family: 'Segoe UI';
+  font-family: "Segoe UI";
   margin-left: 18px;
   margin-bottom: 17px;
 }
 
-.excerpt-item>ul>li:first-child {
+.excerpt-item > ul > li:first-child {
   margin: 18px 0 0;
   font-size: 12px;
   line-height: 16px;
-  color: #787C90;
+  color: #787c90;
 }
 
-.excerpt-item>ul>li:last-child {
+.excerpt-item > ul > li:last-child {
   font-size: 18px;
   line-height: 24px;
   color: #262626;
@@ -83,7 +83,7 @@
   position: absolute;
   top: 195px;
   left: 30px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   width: 1068px;
   height: 329px;
   display: grid;
@@ -96,14 +96,14 @@
 }
 
 .listing-container {
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
   position: absolute;
   top: 567px;
   left: 30px;
   bottom: 121px;
 }
 
-.listing-container>div:first-child {
+.listing-container > div:first-child {
   height: 30px;
   font-family: "Segoe UI";
   font-size: 36px;
@@ -111,14 +111,14 @@
   margin-bottom: 29px;
 }
 
-.listing-container>div:nth-child(2) {
+.listing-container > div:nth-child(2) {
   display: flex;
   position: absolute;
   height: 30px;
   width: 1069px;
 }
 
-.listing-container>div:nth-child(2)>span:first-child {
+.listing-container > div:nth-child(2) > span:first-child {
   font-family: "Segoe UI";
   font-size: 13px;
   line-height: 17px;
@@ -126,15 +126,15 @@
   margin-right: 20px;
 }
 
-.listing-container>div:nth-child(2)>span:nth-child(2) {
+.listing-container > div:nth-child(2) > span:nth-child(2) {
   font-family: "Segoe UI";
   font-size: 14px;
   line-height: 19px;
-  color: #1875F0;
+  color: #1875f0;
   margin-right: 13px;
 }
 
-.listing-container>div:nth-child(2)>span:nth-child(3) {
+.listing-container > div:nth-child(2) > span:nth-child(3) {
   font-family: "Segoe UI";
   font-size: 13px;
   line-height: 17px;
@@ -142,7 +142,7 @@
   margin-right: 57px;
 }
 
-.listing-container>div:nth-child(2)>span:nth-child(4) {
+.listing-container > div:nth-child(2) > span:nth-child(4) {
   font-family: "Segoe UI";
   font-size: 11px;
   line-height: 15px;
@@ -154,17 +154,17 @@
   margin-right: 137.5px;
 }
 
-.listing-container>div:nth-child(2)>span:nth-child(4)>svg {
+.listing-container > div:nth-child(2) > span:nth-child(4) > svg {
   margin-right: 7px;
 }
 
-.listing-container>div:nth-child(2)>span:nth-child(4)>input {
+.listing-container > div:nth-child(2) > span:nth-child(4) > input {
   border: none;
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
 }
 
-.listing-container>div:nth-child(2)>span:nth-child(5) {
-  background-color: #E5E5E5;
+.listing-container > div:nth-child(2) > span:nth-child(5) {
+  background-color: #e5e5e5;
   font-family: "Segoe UI";
   font-size: 13px;
   line-height: 17px;
@@ -174,22 +174,22 @@
   height: 18px;
 }
 
-.listing-container>div:nth-child(2)>ul {
+.listing-container > div:nth-child(2) > ul {
   list-style: none;
   border-radius: 0px 0px 6px 6px;
   margin: 0;
   box-shadow: 0px 4px 10px rgba(79, 79, 79, 0.07);
 }
 
-.listing-container>div:nth-child(2)>div {
-  background-color: #FFFFFF;
+.listing-container > div:nth-child(2) > div {
+  background-color: #ffffff;
   min-width: 150px;
   position: relative;
   height: 35px;
   border-radius: 2px;
 }
 
-.listing-container>div:nth-child(2)>div>div {
+.listing-container > div:nth-child(2) > div > div {
   display: flex;
   justify-content: space-between;
   font-family: "Segoe UI";
@@ -197,17 +197,17 @@
   line-height: 17px;
   color: #414042;
   border-radius: 2px;
-  background: #F4F4F4;
-  border: 1px solid #CED0DA;
+  background: #f4f4f4;
+  border: 1px solid #ced0da;
   height: 100%;
   width: 100%;
 }
 
-.listing-container>div:nth-child(2)>div>div>span {
+.listing-container > div:nth-child(2) > div > div > span {
   flex: 1;
 }
 
-.listing-container>div:nth-child(2)>div>div>span:last-child {
+.listing-container > div:nth-child(2) > div > div > span:last-child {
   padding: 8px 16px 9px 0;
   text-align: end;
   transform: rotate(0, 0);
@@ -221,20 +221,20 @@
   transform: rotate(-90deg);
 }
 
-.listing-container>div:nth-child(2)>div>div>span:first-child {
+.listing-container > div:nth-child(2) > div > div > span:first-child {
   padding: 8px 0px 9px 16px;
   text-align: start;
 }
 
-.listing-container>div:nth-child(2)>div>ul {
+.listing-container > div:nth-child(2) > div > ul {
   list-style: none;
   margin: 0;
   position: absolute;
   z-index: 100000000;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
-.listing-container>div:nth-child(2)>div>ul>li {
+.listing-container > div:nth-child(2) > div > ul > li {
   width: 150px;
   height: 33px;
   padding: 8px 0 7px 18px;
@@ -245,12 +245,12 @@
   margin: 0;
 }
 
-.listing-container>div:nth-child(2)>div>ul>li:hover {
-  background-color: #F4F4F4;
-  ;
+.listing-container > div:nth-child(2) > div > ul > li:hover {
+  background-color: #f4f4f4;
+  cursor: pointer;
 }
 
-.listing-container>div:nth-child(2)>ul>li:first-child {
+.listing-container > div:nth-child(2) > ul > li:first-child {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
@@ -258,7 +258,7 @@
   padding-left: 10px;
   padding-right: 10px;
   border-radius: 2px;
-  background-color: #F4F4F4;
+  background-color: #f4f4f4;
 }
 
 progress {
@@ -270,23 +270,23 @@ progress {
 }
 
 progress::-webkit-progress-bar {
-  background: #FDC203;
+  background: #fdc203;
 }
 
 progress::-webkit-progress-value {
-  background: #27AE60;
+  background: #27ae60;
 }
 
 .orderContainer {
   grid-area: orderArea;
-  background-color: #FFFFFF;
-  border-bottom: 4px solid #F7F8FA;
+  background-color: #ffffff;
+  border-bottom: 4px solid #f7f8fa;
   display: flex;
   flex-direction: column;
   padding: 21px 0 24px 25px;
 }
 
-.orderContainer>span {
+.orderContainer > span {
   font-family: "Segoe UI";
   font-size: 14px;
   line-height: 16px;
@@ -294,20 +294,20 @@ progress::-webkit-progress-value {
   margin-bottom: 11px;
 }
 
-.orderContainer>span:first-child {
+.orderContainer > span:first-child {
   font-weight: bold;
 }
 
 .paymentsContainer {
   grid-area: paymentsArea;
-  background-color: #FFFFFF;
-  border-bottom: 4px solid #F7F8FA;
+  background-color: #ffffff;
+  border-bottom: 4px solid #f7f8fa;
   display: flex;
   flex-direction: column;
   padding: 21px 0 24px 25px;
 }
 
-.paymentsContainer>span {
+.paymentsContainer > span {
   font-family: "Segoe UI";
   font-size: 14px;
   line-height: 16px;
@@ -315,28 +315,28 @@ progress::-webkit-progress-value {
   margin-bottom: 11px;
 }
 
-.paymentsContainer>span:first-child {
+.paymentsContainer > span:first-child {
   font-weight: bold;
 }
 
-.gradientContainer>header {
+.gradientContainer > header {
   grid-area: headerArea;
   display: flex;
-  border-right: 4px solid #F7F8FA;
+  border-right: 4px solid #f7f8fa;
 }
 
-.gradientContainer>header>div:first-child {
+.gradientContainer > header > div:first-child {
   margin-left: 34px;
   margin-top: 26px;
   font-family: "Segoe UI";
   font-weight: bold;
   font-size: 18px;
   line-height: 21px;
-  color: #4F4F4F;
+  color: #4f4f4f;
 }
 
-.gradientContainer>header>ul {
-  border: 1px solid #DDE0E3;
+.gradientContainer > header > ul {
+  border: 1px solid #dde0e3;
   border-radius: 4.25px;
   list-style: none;
   width: 138px;
@@ -352,11 +352,11 @@ progress::-webkit-progress-value {
   align-items: flex-start;
 }
 
-.gradientContainer>header>ul>li {
+.gradientContainer > header > ul > li {
   font-family: "Segoe UI";
   font-size: 12px;
   line-height: 16px;
-  color: #7F8FA4;
+  color: #7f8fa4;
   padding: 0;
   margin: 0;
   margin-left: 11px;
@@ -366,43 +366,42 @@ progress::-webkit-progress-value {
   justify-self: center;
 }
 
-.gradientContainer>header>ul>li>span:first-child {
+.gradientContainer > header > ul > li > span:first-child {
   width: 87px;
   margin-right: 19px;
 }
 
-.gradientContainer>header>ul>li>span:last-child {
+.gradientContainer > header > ul > li > span:last-child {
   display: flex;
   align-items: center;
 }
 
-.gradientContainer>header>.arrow-button {
+.gradientContainer > header > .arrow-button {
   margin-top: 27px;
-  color: #CCCFD4;
-  ;
+  color: #cccfd4;
 }
 
-.gradientContainer>header>div>svg:first-child {
+.gradientContainer > header > div > svg:first-child {
   margin-right: 18.2px;
 }
 
 .gradient-body {
   grid-area: bodyArea;
-  border-right: 4px solid #F7F8FA;
+  border-right: 4px solid #f7f8fa;
   position: relative;
 }
 
-.gradient-body>div {
+.gradient-body > div {
   position: absolute;
   display: flex;
   height: 200px;
   width: 100%;
 }
 
-.gradient-body>div>span {
+.gradient-body > div > span {
   text-align: center;
   mix-blend-mode: normal;
-  border-right: 1.4px solid #CFE8FB;
+  border-right: 1.4px solid #cfe8fb;
   font-family: "Segoe UI";
   font-weight: bold;
   font-size: 14px;
@@ -410,27 +409,27 @@ progress::-webkit-progress-value {
   color: #000000;
 }
 
-.gradient-body>div>span:first-child {
+.gradient-body > div > span:first-child {
   width: 103px;
 }
 
-.gradient-body>div>span:nth-child(2) {
+.gradient-body > div > span:nth-child(2) {
   width: 114.6px;
 }
 
-.gradient-body>div>span:nth-child(3) {
+.gradient-body > div > span:nth-child(3) {
   width: 118.6px;
 }
 
-.gradient-body>div>span:nth-child(4) {
+.gradient-body > div > span:nth-child(4) {
   width: 115.6px;
 }
 
-.gradient-body>div>span:nth-child(5) {
+.gradient-body > div > span:nth-child(5) {
   width: 120.62px;
 }
 
-.gradient-body>div>span:last-child {
+.gradient-body > div > span:last-child {
   width: 103px;
   border: none;
 }
