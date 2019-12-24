@@ -1,4 +1,5 @@
 Task Link: https://www.figma.com/file/pjSKVbCTSYbb15nvNu2us1/Front-end-test?node-id=0%3A1
+Task Result hosted on Netlify: https://vela-frontend-test.netlify.com/
 Tasks:
 
 1. Using React, implement the UI design in the link using dummy data. Share your code in a public repo on GitHub
