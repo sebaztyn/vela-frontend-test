@@ -15,7 +15,7 @@
     "svgr": "svgr -d src/Icons/ svg/"
   },
   "dependencies": {
-    "gatsby": "^2.18.12",
+    "gatsby": "^4.25.7",
     "gatsby-plugin-sass": "^2.1.26",
     "node-sass": "^4.13.0",
     "react": "^16.12.0",
